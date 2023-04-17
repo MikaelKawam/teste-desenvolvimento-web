@@ -29,6 +29,19 @@ Projeto dividido em duas partes
 
 
 
+## 🚀 How to start app
+
+1.
+cd backend
+npm install
+npm run start
+
+
+
+2.
+cd frontend
+npm install
+npm run start
 
 ---
 
