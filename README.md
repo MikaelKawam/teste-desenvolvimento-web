@@ -1,58 +1,68 @@
-# Teste de Desenvolvimento Web
 
-Olá Dev! Tudo bem?
-
-A RedFox está sempre em busca de profissionais interessantes e interessados, com boa capacidade de aprendizado, adaptação e principalmente motivação!
-
-Este teste tem como objetivo avaliar e desafiar você. Não é obrigatório realizá-lo completamente, queremos apenas conhecer você, seu esforço e potencial para aprender, se adaptar e tomar decisões.
-
-Agora vamos ao teste!
+</p>
+<h1 align="center">
+Pokedex
+</h1>
 
 
-## Desafio Pokémon
+## 💻 About
 
-Nós temos um problema, atualmente nosso sistema é só um excel, cheio de informações sobre Pokémon. Nós usamos ele como banco de dados e ao mesmo tempo interface de gerenciamento, inserindo, editando, deletando e filtrando os dados.
+Backend: Api para requisitar os dados do banco de dados mongodb cloud
 
-A missão é criar um sistema para substituir este excel, pois queremos expandir e acrescentar funcionalidades. Queremos manter o básico, mas principalmente queremos uma forma prática e agradável de buscar os dados, com listagem, filtros, paginação e detalhes sobre cada Pokémon.
+Frontend: Interface react para exibir os dados de cada pokemon pelo banco de dados, já as imagens de cada pokemon utilizei a PokeApi.
 
-Fique à vontade com o layout, precisamos de uma interface que consiga entregar as funcionalidades principais e substituir o excel, só isso.
+Projeto para vaga fullstack que foi congelada, mas apenas quero armazenar o código aqui.
+---
 
+## ⚙️ Features
 
-## Consigo fazer tudo isso?
+Ver o icon de cada pokemon e seus detalhes.
 
-Consegue sim!
+---
 
-O teste é flexível, você pode escolher alguma parte específica dele para fazer, em que se sinta mais confortável e confiante, por exemplo: a interface, as funcionalidades, o banco de dados, etc...O importante é tentar atingir o objetivo de alguma forma.
+## 🚀 How it works
+Projeto dividido em duas partes
 
-Aqui na RedFox queremos aproveitar ao máximo suas habilidades e aptidões, mas também desafiar você a adquirir novas, então nossa equipe tem a liberdade de trasitar entre frontend, backend, infraestrutura, etc...Sem se restringir, tudo depende do esforço e vontade de cada um.
-
-
-## Por onde começo?
-
-Primeiramente, você pode fazer um fork desse repositório aqui, para sua conta do Github, depois disso crie uma branch nova com o seu nome, para podermos indentificá-lo.
-
-Após terminar o desafio, você pode solicitar um pull request para a branch master do nosso repositório. Vamos receber e fazer a avaliação de todos.
+1. Backend 
+2. Frontend
 
 
-## E o Layout??
-
-Fique a vontade quanto a isso, não vamos avaliar o design da sua interface. Se quiser desenhar algo bacana, diferente, pensar até em UI/UX, etc...é claro que vamos valorizar o seu esforço e considerar como um diferencial, mas não se preocupe. 
 
 
-## Regras
 
-Para o desafio ficar mais interessante, decidimos criar algumas regras:
-- No layout, deve utilizar algum framework CSS (ex: Bootstrap, MaterializeCSS, Bulma...)
-- No frontend, deve utilizar algum framework JS (ex: VueJS, ReactJS, Angular...tente não usar jQuery)
-- No backend, deve utilizar NodeJS
-- Documentar um pouco o projeto, o que você fez e de que forma devemos executar-lo
+---
 
+## 🛠 Tech Stack
 
-## Só isso?
+The following tools were used in the construction of the project:
 
-Só!...mas se quiser ir além, tente preparar o projeto para ser executado de maneira simples e prática, se coloque no lugar de alguém com menos conhecimentos, que precisa ver o que você desenvolveu. 
+#### **Front-end** ([React](https://reactjs.org/))
 
-ps: Se fizer deploy em algum servidor ou utilizar alguma ferramenta que facilite a execução (ex: docker), será um diferencial.
+- **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+- **[React Icons](https://react-icons.github.io/react-icons/)**
+- **[Axios](https://github.com/axios/axios)**
 
 
-Boa sorte! (^_^)
+> See the file [package.json]
+(https://github.com/MikaelKawam/Get-A-Pet/blob/main/frontend/package.json)
+#### [](https://github.com/tgmarinho/Ecoleta#server-nodejs--typescript)**Back-end** ([NodeJS](https://nodejs.org/en/))
+
+- **[Express](https://expressjs.com/)**
+- **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+- **[mongoose](https://mongoosejs.com/)**
+
+Utilizei o postman para testar a api.
+---
+
+## 🦸 Author
+
+<a href="https://www.linkedin.com/in/mikaeldev/">
+ 
+ <br />
+ <sub><b>Mikael Kawam</b></sub></a> 
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-Mikael-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mikaeldev/)](https://www.linkedin.com/in/mikaeldev/)
+[![Gmail Badge](https://img.shields.io/badge/-mikaelkawam.dev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mikaelkawam.dev@gmail.com)](mailto:mikaelkawam.dev@gmail.com)
+
+---
